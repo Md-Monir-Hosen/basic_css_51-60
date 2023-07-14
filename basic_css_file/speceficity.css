@@ -1,0 +1,16 @@
+body{  
+    text-align: center;  
+    font-size: 30px;  
+    color: blue;  
+    background-color: red;  
+    }  
+    #div1 {  
+    background-color: red;  
+    }  
+    div#div1        /*Higher specificity*/  
+    {  
+    background-color: yellow;  
+    }  
+    div[id=div1] {  
+    background-color: blue;  
+    }  
